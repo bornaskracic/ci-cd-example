@@ -22,4 +22,3 @@ jobs:
         dotnet-version: 7.0.304
     - name: Build with dotnet
       run: dotnet build --configuration Release
-      working-directory: ./src/api
